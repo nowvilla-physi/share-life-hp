@@ -16,7 +16,7 @@
     font-size: 4.8rem;
 
     @include mq(sm) {
-      font-size: 1.4rem;
+      font-size: 3.2rem;
     }
   }
 
@@ -46,6 +46,10 @@
 
   &__function {
     margin-top: 32px;
+
+    @include mq(sm) {
+      font-size: 1.0rem;
+    }
   }
 
   &__list {
@@ -56,5 +60,9 @@
     padding: 8px 0;
     color: $accentColor;
     font-size: 1.8rem;
+
+    @include mq(sm) {
+      font-size: 1.4rem;
+    }
   }
 }
